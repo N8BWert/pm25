@@ -1,0 +1,14 @@
+[package]
+name = "pm25"
+version = "0.1.0"
+edition = "2021"
+authors = ["Nathaniel Wert <n8.wert.b@gmail.com>"]
+keywords = ["embedded", "arduino", "air quality", "sensor", "no_std"]
+description = "Rust Driver for the PM2.5 or PM1006 Air Quality Sensor"
+readme = "README.md"
+categories = ["nostd", "embedded", "driver"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-hal = "1.0.0"
